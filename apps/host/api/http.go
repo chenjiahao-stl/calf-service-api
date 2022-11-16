@@ -3,9 +3,9 @@ package api
 import (
 	"calf-restful-api/apps"
 	"calf-restful-api/apps/host"
+	"github.com/chenjiahao-stl/go-framework/logger"
+	"github.com/chenjiahao-stl/go-framework/logger/zap"
 	"github.com/gin-gonic/gin"
-	"github.com/infraboard/mcube/logger"
-	"github.com/infraboard/mcube/logger/zap"
 )
 
 var handler = &Handler{}

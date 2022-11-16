@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"gitee.com/go-course/restful-api-demo-g7/version"
+	"calf-restful-api/version"
 )
 
 func TestVersion(t *testing.T) {

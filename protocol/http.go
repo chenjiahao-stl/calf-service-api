@@ -5,9 +5,9 @@ import (
 	"calf-restful-api/conf"
 	"context"
 	"fmt"
+	"github.com/chenjiahao-stl/go-framework/logger"
+	"github.com/chenjiahao-stl/go-framework/logger/zap"
 	"github.com/gin-gonic/gin"
-	"github.com/infraboard/mcube/logger"
-	"github.com/infraboard/mcube/logger/zap"
 	"net/http"
 	"time"
 )

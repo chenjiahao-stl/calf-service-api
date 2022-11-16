@@ -5,8 +5,8 @@ import (
 	"calf-restful-api/apps/host"
 	"calf-restful-api/conf"
 	"database/sql"
-	"github.com/infraboard/mcube/logger"
-	"github.com/infraboard/mcube/logger/zap"
+	"github.com/chenjiahao-stl/go-framework/logger"
+	"github.com/chenjiahao-stl/go-framework/logger/zap"
 )
 
 var impl = &IHostServiceImpl{}

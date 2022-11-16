@@ -4,7 +4,7 @@ import (
 	"calf-restful-api/apps/host"
 	"context"
 	"fmt"
-	"github.com/infraboard/mcube/logger"
+	"github.com/chenjiahao-stl/go-framework/logger"
 )
 
 func (i *IHostServiceImpl) CreateHost(ctx context.Context, host *host.Host) (*host.Host, error) {
